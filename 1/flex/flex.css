@@ -1,0 +1,12 @@
+@import "flex-direction-column.css";
+@import "flex-align-space-around.css";
+@import "flex-wrap.css";
+@import "flex-justify-center.css";
+@import "flex-justify-end.css";
+@import "flex-align-items-center.css";
+@import "flex-justify-space-around.css";
+@import "flex-align-items-end.css";
+
+.d-flex {
+    display: flex;
+}
