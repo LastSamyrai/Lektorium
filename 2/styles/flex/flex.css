@@ -1,0 +1,6 @@
+@import "flex-justify-center.css";
+@import "flex-direction-column.css";
+@import "flex-align-items-center.css";
+.d-flex {
+    display: flex;
+}
