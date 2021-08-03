@@ -24,18 +24,83 @@ body{
     font-family: Roboto-Regular, sans-serif;
 }
 
+.main-container {
+    height: 100vh;
+    width: 100%;
+}
+
 .header-title {
     font-family: Roboto-Bold, sans-serif;
     color: #576bcd;
-    font-size: 35px;
-    line-height: 50px;
+    font-size: 32px;
+    margin-bottom: 20px;
 }
 
 .register-form-container {
-    width: 300px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
+    padding: 25px;
     background-color: #ffffff;
-    box-shadow: 10px 15px 20px #bdbebd;
-
+    box-shadow: 0 5px 10px rgba(190, 190, 190, 0.25),
+                0 10px 10px rgba(190, 190, 190, 0.22);
 }
 
+.form-title {
+    font-family: Roboto-Regular, sans-serif;
+    font-size: 14px;
+}
+
+.input-title {
+    font-family: Roboto-Bold, sans-serif;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.input {
+    height: 34px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.input-checkbox {
+    cursor: pointer;
+}
+
+.button {
+    background-color: #576bcd;
+    color: #ffffff;
+    border-radius: 5px;
+    border: none;
+    height: 35px;
+    width: 100%;
+    cursor: pointer;
+    text-align: center;
+}
+
+.button-text {
+    font-family: Roboto-Bold, sans-serif;
+    font-size: 14px;
+}
+
+a {
+    font-family: Roboto-Bold, sans-serif;
+    color: #576bcd;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 3px;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+.footer {
+    margin-top: 20px;
+    height: 50px;
+    width: 100%;
+}
+
+.footer-account {
+    font-family: Roboto-Regular, sans-serif;
+    font-size: 12px;
+}

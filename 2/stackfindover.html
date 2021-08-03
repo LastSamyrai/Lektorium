@@ -6,46 +6,46 @@
     <title>Stackfindover</title>
 </head>
 <body>
-    <main class="main-container d-flex flex-justify-center flex-direction-column flex-align-items-center">
+
+    <main class="main-container d-flex flex-direction-column flex-align-items-center flex-justify-center">
         <header>
             <h1 class="header-title">
                 Stackfindover
             </h1>
         </header>
-        <section class="register-form-container">
+        <section class="register-form-container d-flex flex-direction-column flex-justify-around ">
             <header>
                 <h2 class="form-title">
                     Sing in to your account
                 </h2>
             </header>
-            <section class="form-fields">
                 <section class="form-field">
-                    <h3>Email</h3>
-                    <input type="email" placeholder="cdcdcd">
+                    <h3 class="input-title">Email</h3>
+                    <input type="email" placeholder="   cdcdcd" class="input">
                 </section>
                 <section class="form-field">
-                    <h3>Password</h3>
-                    <a href="https://www.google.com/">Forgot your password?</a>
-                    <input type="password">
+                    <header class="d-flex flex-justify-between">
+                        <h3 class="input-title">Password</h3>
+                        <a href="https://www.google.com/" class="input-title">Forgot your password?</a>
+                    </header>
+                    <input type="password" placeholder="    &#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;" class="input">
                 </section>
-                <label>
-                    <input type="checkbox">
-                    Stay signed in for a week
+                <label class="input-title">
+                    <input type="checkbox" class="input-checkbox">
+                    <span>Stay signed in for a week</span>
                 </label>
-            </section>
-            <footer class="form-button">
-                <button class="button">
+                <button class="button button-text">
                     Continue
                 </button>
-                <a href="https://www.google.com.ua/maps/">Use single sign-on (Google) instead</a>
-            </footer>
+                <a href="https://www.google.com.ua/maps/" class="button-text">Use single sign-on (Google) instead</a>
         </section>
-        <footer>
-            <div>
+        <footer class="footer d-flex flex-justify-center">
+            <div class="footer-account">
                 Don't have an account?
             </div>
-            <a href="https://www.facebook.com/">Sing up</a>
+            <a href="https://www.facebook.com/" class="footer-account">Sing up</a>
         </footer>
     </main>
+
 </body>
 </html>

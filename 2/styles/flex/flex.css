@@ -1,6 +1,9 @@
 @import "flex-justify-center.css";
 @import "flex-direction-column.css";
 @import "flex-align-items-center.css";
+@import "flex-justify-between.css";
+@import "flex-justify-around.css";
+
 .d-flex {
     display: flex;
 }
