@@ -20,6 +20,35 @@
     box-sizing: border-box;
 }
 
+.container {
+    max-width: 100%;
+    padding: 0 max(calc(50% - 585px), 15px);
+}
+
+@media (max-width: 1200px) {
+    .container{
+        max-width: 960px;
+    }
+}
+
+@media (max-width: 992px) {
+    .container{
+        max-width: 720px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container{
+        max-width: 540px;
+    }
+}
+
+@media (max-width: 576px) {
+    .container{
+        max-width: 100%;
+    }
+}
+
 body{
     font-family: Roboto-Regular, sans-serif;
 }
@@ -59,8 +88,18 @@ body{
 .input {
     height: 34px;
     width: 100%;
+    border: 2px solid #F3E9E999;
     border-radius: 5px;
 }
+
+input:valid {
+    border-color: #576bcd;
+}
+
+input:invalid {
+    border: 2px solid rgba(212, 212, 212, 0.6);
+}
+
 
 .input-checkbox {
     cursor: pointer;

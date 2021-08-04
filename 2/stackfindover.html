@@ -7,7 +7,7 @@
 </head>
 <body>
 
-    <main class="main-container d-flex flex-direction-column flex-align-items-center flex-justify-center">
+    <main class="main-container container d-flex flex-direction-column flex-align-items-center flex-justify-center">
         <header>
             <h1 class="header-title">
                 Stackfindover
@@ -20,15 +20,15 @@
                 </h2>
             </header>
                 <section class="form-field">
-                    <h3 class="input-title">Email</h3>
-                    <input type="email" placeholder="   cdcdcd" class="input">
+                    <label class="input-title" for="userEmail">Email</label>
+                    <input id="userEmail" class="input" type="email" placeholder="   cdcdcd" required>
                 </section>
                 <section class="form-field">
                     <header class="d-flex flex-justify-between">
-                        <h3 class="input-title">Password</h3>
+                        <label class="input-title" for="userPassword">Password</label>
                         <a href="https://www.google.com/" class="input-title">Forgot your password?</a>
                     </header>
-                    <input type="password" placeholder="    &#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;" class="input">
+                    <input id="userPassword" class="input" type="password" minlength="6" placeholder="    &#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;" required>
                 </section>
                 <label class="input-title">
                     <input type="checkbox" class="input-checkbox">
