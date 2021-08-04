@@ -28,7 +28,7 @@
                         <label class="input-title" for="userPassword">Password</label>
                         <a href="https://www.google.com/" class="input-title">Forgot your password?</a>
                     </header>
-                    <input id="userPassword" class="input" type="password" minlength="6" placeholder="    &#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;" required>
+                    <input id="userPassword" class="input" type="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" placeholder="    &#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;" required>
                 </section>
                 <label class="input-title">
                     <input type="checkbox" class="input-checkbox">
